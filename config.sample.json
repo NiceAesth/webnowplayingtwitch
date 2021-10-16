@@ -1,0 +1,5 @@
+{
+    "token": "PUT_ACCESS_TOKEN_HERE",
+    "prefix": "!",
+    "initial_channels": ["YOUR_CHANNEL_USERNAME"]
+}
