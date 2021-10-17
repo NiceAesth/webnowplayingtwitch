@@ -8,7 +8,7 @@ class Bot(commands.Bot):
     def __init__(self) -> None:
         self.config = Config.parse_config('config.json')
 
-        super().__init__(token=self.config.token, prefix=self.config.prefix, initial_channels=helpers.get_initial_channels(self.config))
+        super().__init__(token=self.config.token, prefix=self.config.prefix, initial_channels=lambda: helpers.get_initial_channels(self.config))
 
     async def load_modules(self) -> None:
         module_folders = ["cogs"]
