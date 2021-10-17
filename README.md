@@ -34,8 +34,6 @@ A Twitch bot made using TwitchIO which displays information obtained from the [W
 
 5. Run `python run.py` 
 
-6. Have a look at [Recommended configurations](#recommended-configurations) and [Custom configurations](#custom-configurations).
-
 # Spotify
 
 If you wish to use this bot for Spotify too, have a look at [this guide](https://github.com/khanhas/spicetify-cli/wiki/Guide-for-Rainmeter-user).
